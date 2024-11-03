@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Soporte Técnico APEX</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <h1>Soporte técnico (PERSONAL/FLOW)</h1>
+<main>
+
+    <section>
+        <h2>PROTOCOLO</h2>
+        <ol>
+            <li>Prender PC</li>
+            <li>Firmar entrada en <a href="https://apex.wayfromhome.cx/login" target="_blank">WAY</a></a></li>
+            <li><a href="#tools">Abrir Herramientas</a></li>
+            <li>Iniciar sesión en PIC</li>
+            <li>Anotar los horarios de <a href="#mis_horarios">Break</a></li>
+            <br> <!--aqui separar con cuadros la entrada y la salida-->
+            <li>Finalizar sesion en pic</li>
+            <li>Mandar por <a href="https://mail.apexamerica.com/" target="_blank">e-mail</a> el block de notas con fecha del dia</li>
+            <li>Cerrar sesion en todos los sistemas y apagar PC</li>
+        </ol>
+    </section>
+
+    <section>
+    <h2 id="tools">HERRAMIENTAS A UTILIZAR</h2>
+        <ol>
+            <li>Escritorio virtual CITRIX</li>
+            <ul>
+                <li>PIC</li>
+                <li>OPEN</li>
+                    <ul><li>CRM</li></ul>
+                <li>Base de Conocimientos</li>
+                        <ul>
+                        <li>APPS</li>
+                        <ol>
+                            <li>HUB-Nuevo Sender</li>
+                            <li>Ventas y Contención</li>
+                            <li>Grilla de Programación</li>
+                            <li>Tabulaciones (in Soporte)</li>
+                            <li>Sucursales</li>
+                        </ol>
+                        <li>HERRAMIENTAS</li>
+                        <ol>
+                            <li>Diagnostico CODI</li>
+                            <li>E-MEMO</li>
+                            <li>Watchdog</li>
+                            <li>Medios de Contacto</li>
+                            <li>Calculadora de Ajustes</li>
+                            <li>Continuidad de Servicio</li>
+
+
+                        </ol>
+                        </ul>
+            </ul>
+
+            <li><a href="https://apex.wayfromhome.cx/login" target="_blank">WAY</a></li>
+            <li><a href="https://mail.apexamerica.com/" target="_blank">E-Mail de APEX</a></li>
+            <li><a href="https://drive.google.com/drive/u/2/my-drive" target="_blank">Drive</a></li>
+            <li><a href="https://web.whatsapp.com/" target="_blank">Whatsapp-Web</a></li>
+            <li><a href="C:\Windows\System32\notepad.exe">Bloc de notas</a></li>
+            <li><a href="C:\Windows\System32\Calc">Calculadora de Windows</a></li>
+            <li><a href="https://forms.gle/JgJy6iSpxL7HV5HB7" target="_blank">Formulario Supervisor: Orden Técnica</a></li>
+            <li><a href="https://acortar.link/H61ERZ" target="_blank">Info Super-Team</a></li>
+
+        </ol>
+    </section>
+
+    <section>
+        <h2>MIS CONTRASEÑAS</h2>
+        <form action="password.html" target="_blank">
+            <input type="text" name="usser" placeholder="ingrese el usuario" required>
+            <br>
+            <input type="text" name="password" placeholder="ingrese la contraseña" required>
+            <button type="submit">Ingresar</button>  
+        </form>
+    </section>
+
+    <section>
+        <h2>PRODUCTOS</h2>
+        <ul>
+            <li><a href="personal_product.html" target="_blank">PERSONAL</a></li>
+            <li><a href="flow_product.html" target="_blank">FLOW</a></li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>GESTIONES</h2>
+        <ol>
+            <li><a href="">Daño a productos</a></li>
+            <li><a href="">Agenda de service técnico</a></li>
+            <li><a href="">Ajuste de facturación</a></li>
+            <li><a href="">Consulta por facturacion</a></li>
+            <li><a href="">Adherir a débito automatico</a></li>
+            <li><a href="">Reagenda de visita técnica</a></li>
+        </ol>
+    </section>
+
+    <section>
+        <h2>FLUJO DE TRABAJO</h2>
+        <fieldset>
+            <legend> Chequea los pasos que estan listos</legend>
+            <input id="bienvenida" type="checkbox" name="paso1" value="bienvenida" checked><label for="bienvenida"><a href="#wellcome">Bienvenida</a></label>
+            <br>
+            <input type="text" name="usuario_llamador" placeholder="nombre del cliente" required>
+            <input type="text" name="dni_titular" placeholder="DNI del titular" required>
+            <br>
+            <input id="act_data" type="checkbox" name="paso2" value="act_data"><label for="act_data">Actualizar datos de contacto</label>
+            <br>
+            <input type="text" name="telefono" placeholder="telefono" required>
+            <input type="text" name="email" placeholder="correo electronico" required>
+            <br>
+            <input id="indagar" type="checkbox" name="paso3" value="indagar"><label for="indagar">Indagar sobre el reclamo o la consulta</label>
+            <br>
+            <input type="text" name="detalles" placeholder="Detalles u observaciones" required>
+            <br>
+            <input id="gestion" type="checkbox" name="paso4" value="gestion"><label for="gestion">Gestionar herramientas</label>
+            <br>
+            <input id="resolucion" type="checkbox" name="paso5" value="resolucion"><label for="resolucion">Resolución - Veredicto</label>
+            <br>
+            <input id="agenda_service" type="checkbox" name="paso6" value="agenda_service"><label for="agenda_service">Envío de service técnico</label>
+            <br>
+            <input id="hub" type="checkbox" name="paso7" value="hub"><label for="hub">Envio de datos por HUB</label>
+            <br>
+            <input type="text" name="n_client" placeholder="numero de cliente" required>
+            <input type="text" name="n_orden" placeholder="numero de orden" required>
+            <input type="text" name="email" placeholder="fecha de agenda" required>
+            <br>
+            <input id="encuesta" type="checkbox" name="paso8" value="encuesta"><label for="encuesta"> <a href="#survey">Ofrecer Encuesta</a></label>
+            <br>
+            <input id="tabular" type="checkbox" name="paso9" value="tabular"><label for="tabular">Tabular</label>
+        </fieldset>
+    </section>
+
+    <section>
+        <h2>ESPICHES</h2> TODO:
+        <ol>
+            <li id="wellcome">Bienvenida</li>
+                <p>* Soporte técnico, mi nombre es Evaristo. ¿Con quién tengo el gusto?</p>
+                <p>* Personal - Flow, habla Evaristo. ¿En que le puedo ayudar?</p>
+                <p>* Buenas tardes, mi nombre es Evaristo. Lo voy a guiar en soporte técnico. ¿Con quién hablo?</p>
+            <li id="datos_contact">Actualizar datos de contacto</li>
+            <li id="indagar">Indagación</li>
+            <li id="gestion">Gestionar herramientas</li>
+            <li id="resulucion">Resolución - Veredicto</li>
+            <li id="agenda_tecnico">Agenda visita técnica</li>
+            <li id="survey">Ofrecer encuesta</li>
+                <p>*Te va a llegar a tu e-mail una breve encuesta para calificar nuestra atención. Si quieres puedes completarla y eso nos ayuda mucho a mejorar.</p>
+            <li id="despedida">Despedida</li>
+        </ol>
+    </section>
+
+    <section>
+        <h2>MEDIOS DE CONTACTO MAS USUALES</h2>
+        <ul>
+            <li>TELEFONICO</li>
+            <li>REDES</li>
+            <li>WHATSAPP</li>
+            <li>SUCURSALES</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Mis Horarios de Trabajo</h2>
+        <p>Planilla de horarios y descansos</p>
+        <img id="mis_horarios" src="..\images\horarios_de_trabajo.jpg" alt="Debería aparecer la planilla de horarios y descansos">
+        <div class="linea"></div>
+        <img id="mis_horarios_2" src="..\images\horarios_de_trabajo_2.jpg" alt="Debería aparecer la planilla de horarios y descansos">
+    </section>
+
+    <section>
+        <h2>Instructivos en basse de conocimiento</h2>
+        <form action="basedeconocimiento.html">
+            <fieldset>
+                <legend>Código de instructivo</legend>
+                <label><input id="add_code" type="radio" name="codes_number" value="add_code" checked> Agregar Código</label>
+                <label><input id="search_code" type="radio" name="codes_number" value="search_code"> Buscar Código</label>
+                <label><input id="change_code" type="radio" name="codes_number" value="change_code"> Modificar Código</label>
+                <br>
+                <button type="submit">Ir...</button> 
+            </fieldset>
+        </form>
+    </section>   
+
+    </section>
+
+    <section>
+        <h2>Agenda de APEX (mis compañeros)</h2> <!-- TODO: poner un filtro buscador y boton -->
+
+    </section>
+
+    <section>
+        <h2><i>PICOTERIAS</i></h2> <!--Agregar, revisar, borrar -->
+    </section>
+
+</main>
+</body>
+
+<div class="linea"></div>
+
+<footer>
+    <p>
+    No Copyright - <a href="jose.blanco@apexamerica.com" target="_blank">jose.blanco@apexamerica.com</a>
+    </p>
+
+    <h3>Otros links útiles</h3>
+    <ul>
+        <li>Continuidad de servicio  - <a href="http://sr-docker-xp03.corp.cablevision.com.ar:9005/#/principal" target="_blank">Opcion_2</a></li>
+        <li><a href="https://trainer.telecom.com.ar/course/view.php?id=1674&section=8" target="_blank">Trainer</a> - <a href="https://drive.google.com/drive/u/2/folders/10euQ9V8-uD9TmKumkN3iE5I8ygLh8THy" target="_blank">Compilado</a></li>
+    </ul>
+  </footer>
+
+</html>

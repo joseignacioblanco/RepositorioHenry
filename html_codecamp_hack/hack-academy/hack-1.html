@@ -1,0 +1,70 @@
+<!--para generar las etiquetas estructurales lo puedo hacer con ! y enter o sino html:5 y enter-->
+
+
+<!DOCTYPE html>  <!--esta me indica que se usa la version 5 de html-->
+<html lang="es">
+
+    <head>  <!--encabezado-->
+
+      <meta charset="UTF-8">  <!--etiqueta de auto clausura. configura el set de caracteres-->
+      <title>El Titulo de mi página</title>  <!--titulo para la pestaña del navegador-->
+
+      <link rel="stylesheet" href="css_style/styles.css">
+    
+    </head>
+
+    <body> <!--cuerpo de la pagina web-->
+
+        <h1 id="titulo">Hola Mondongo</h1>  <!--titulares del h1 al h6-->
+        <h2 id="subtitulo">Mondongus</h2>
+        <p>  <!--p de paragraph o sea que qui pongo parrafos-->
+            El mondongo es un producto vacuno que sirve para hacer milanesas y locro.
+        </p>
+
+        <ul>  <!--sin numeracion. unorder list-->
+            <li>una cosa</li>  <!--list item: elemento de lista -->
+            <li>otra cosa</li>
+            <li>otra mas</li>
+        </ul>
+
+        <ol>  <!--listas numeradas-->
+            <li>primer elemento.</li>
+            <li><em>segundo</em> elemento en cursiva.</li>
+            <li><strong>tercer</strong> elemento en negrita.</li>
+        </ol>
+
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti delectus eaque possimus laboriosam molestias rem aliquid saepe excepturi. Eveniet quisquam reiciendis neque unde ratione repellat exercitationem? Nihil mollitia illo impedit.</p>
+        <p>Con los p hago un salto de linea</p>
+        <!--podria poner un atributo align="center" para centrar el parrafo pero esto ya es obsoleto y se hace con css-->
+
+        <img src="images\lena.jpg" alt="una imagen de lena">
+        <!--img tambien es de auto clausura. src es la ruta y alt es para poner una descripcion para cuando no se cargue la imagen-->
+
+        <h2>Enlaces con anclas</h2>
+        <!--enlaces internos, locales y externos. el target blank es para que abra en una pestaña nueva-->
+
+        <h3>enlace externo</h3>
+        <a href="https:\\www.google.com" target="_blank">Enlace a google</a>
+        <h3>enlace interno</h3>
+        <a href="#subtitulo">Enlace interno al titulo</a>
+        <h3>enlace local a un documento en la carpeta de trabajo</h3>
+        <a href="contacto.html" target="_blank">link a la pagina local</a>
+
+        <h3>Enlace a contenido de yutut</h3>
+        
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/4HYnEDPORGc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        <br>  <!--br es la etiqueta para salto de linea y no tiene terminacion-->
+        <h6>arriba y abajo hay saltos de linea o énteres</h6>
+        <br>
+
+        <h3> incorporar un mapa de la cabaña</h3>
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1702.7544423811257!2d-64.18083131589395!3d-31.400102631423767!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432986e333cf7e5%3A0x54b2eab0941ce7fa!2sLa%20Caba%C3%B1a!5e0!3m2!1sen!2sar!4v1665976243335!5m2!1sen!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+
+    </body>
+
+
+</html>
