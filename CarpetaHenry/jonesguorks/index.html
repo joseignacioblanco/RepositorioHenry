@@ -12,13 +12,25 @@
    <head>
       <meta charset="UTF-8" /> <!-- va a configurar el set de caracteres a utilizar-->
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>Leson 1 de html</title> <!--este titullo va ir en la solapa de la pagina web-->
+      <title>Stock de Panpas</title> <!--este titullo va ir en la solapa de la pagina web-->
    </head>
    
    <body>
       <header>
          <!--encabezado de la pagina titulos botones etc-->
-         <h1>Titulo principal de la pagina</h1>
+         <h1>Stock y Datasheet de las Panpas y Herramientas</h1>
+         <img src="./img/herramientas1.jpeg" alt="foto de herramientas y panpas en un dashboard o workbench">
+         <div>
+            <a href="consulta.html">Consultar Componente</a>
+            <span>|</span>
+            <a href="agregar.html">Agregar Componente</a>
+            <span>|</span>
+            <a href="eliminar.html">Eliminar componente</a>   
+            <span>|</span>
+            <a href="https://www.mercadolibre.com.ar" target="_blank">Mercado Libre</a>   
+         </div>
+
+         <hr> <!--esta etiqueta me crea una linea separadora horizontal en todo el ancho de la pagina-->
 
       </header>
 
@@ -26,13 +38,66 @@
 
          <section>
             <article>
+               <h2>Lista de panpas:</h2>
+               <p>A continuacion se lista por secciones el estock de panpas. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur perferendis inventore magnam accusantium rem perspiciatis eaque saepe est pariatur officia dolore exercitationem asperiores accusamus natus tempore quisquam officiis, sapiente ipsam.</p>
                <div>
-                  <h2>subtitulo</h2>
-                  <p>mondongo!</p>
+                  <h3>COMPONENTES</h3>
+                  <h4>Reguladores de tensión</h4>
+                  <ul>
+                     <li>lm317t</li>
+                     <li>otro regulador</li>
+                  </ul>
+                  <h4>Transistores</h4>
+                  <ul>
+                     <li>bc22</li>
+                     <li>irf523</li>
+                  </ul>
+               </div>
+
+               <div>
+                  <h3>MODULOS</h3>
+                  <h4>Placas de desarrollo</h4>
+                  <ul>
+                     <li>Arduino mega</li>
+                     <li>Arduino nano</li>
+                     <li>Arduino DUE</li>
+                     <li>ESP-32</li>
+                     <li>STM-32 (bluepill)</li>
+                  </ul>
+                  <h4>Poscicionamiento</h4>
+                  <ul>
+                     <li>Uno</li>
+                     <li>Otro</li>
+
+                  </ul>
+               </div>
+
+               <div>
+                  <h3>HERRAMIENTAS</h3>
+                  <h4>Eqipops de medición</h4>
+                  <ul>
+                     <li>Osciloscote</li>
+                     <li>Multimetro</li>
+                     <li>Calibre diigital</li>
+                     <li>Capacimetro</li>
+                  </ul>
+               </div>
+
+            </article>
+
+            <article>
+               <h2>Otro artiulo en la primera seccion</h2>
+
+            </article>
+         </section>
+         <hr>
+         <section>
+            <article>
+               <div>
+                  <h2>segunda seccion</h2>
                </div>
             </article>
          </section>
-         <!--  Informacion principal de la pagina-->
            
       </main>
 
@@ -43,10 +108,11 @@
          <p> Non Copyright - <a href="chiringocorp@gmail.com" target="_blank">chiringocorp@gmail.com</a> </p>
         
             <h3>Otros links útiles:</h3>
-            <ul>
-                <li>github-proyect  - <a href="http://" target="_blank">Acces Control</a></li>
-                <li><a href="https://" target="_blank">Libro de Actas</a> - <a href="https://" target="_blank">Diagramas</a></li>
-            </ul>
+                <a href="http://" target="_blank">Acces Control</a>
+                <span>|</span>
+                <a href="https://" target="_blank">Libro de Actas</a>
+                <span>|</span>
+                <a href="https://" target="_blank">Diagramas</a>
 
       </footer>
 
